@@ -4,7 +4,7 @@
     "title": "Space Exploration infinite technologies for SPM goals",
     "author": "Wiwiweb",
     "factorio_version": "1.1",
-    "dependencies": ["base >= 1.1", "space-exploration >= 0.5.0"],
+    "dependencies": ["base >= 1.1", "space-exploration >= 0.6.0"],
     "description": "Adds an infinite technology with no effect that takes all t4 science packs, used to test your base with SPM goals. Also adds a tech that takes *all* packs, for fun.",
     "package": {
       "git_publish_branch": "main"
