@@ -1,15 +1,21 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: ????
+
   Changes:
+    - If you don't have the equivalent level of Mining productivity, researching Bragging rights will now also research Mining productivity for free.
+    - Bragging rights tech now starts at level 4 to match the costs of the Mining productivity tech (e.g. Bragging rights 9 and Mining productivity 9 both cost 15000 science packs).
+
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2022-07-12
+
   Changes:
-    - Update for SE 0.6. Added space science pack.
+    - Updated for SE 0.6. Added space science pack.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2022-05-28
+
   Features:
     - Initial release.
