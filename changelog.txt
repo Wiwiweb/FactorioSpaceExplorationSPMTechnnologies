@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
-Date: ????
+Date: 2022-11-23
 
   Changes:
     - If you don't have the equivalent level of Mining productivity, researching Bragging rights will now also research Mining productivity for free.
