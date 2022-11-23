@@ -2,15 +2,15 @@ local base_tech = {
   type = "technology",
   name = "se-spm-bragging-rights",
   effects = {},
-  icon = "__space-exploration-graphics__/graphics/technology/energy-shield-magenta.png",
   icon_size = 128,
-  order = "zzzzzzz",
   unit = {
     time = 60,
   }
 }
 
 local base_basic_tech = table.deepcopy(base_tech)
+base_basic_tech.order = "zzzzzzz-1"
+base_basic_tech.icon = "__space-exploration-graphics__/graphics/technology/energy-shield-magenta.png"
 base_basic_tech.unit.ingredients = {
   { "automation-science-pack", 1 },
   { "logistic-science-pack", 1 },
@@ -50,6 +50,14 @@ basic_tech_inf.prerequisites = {"se-spaceship-victory"}
 
 
 local base_x_tech = table.deepcopy(base_tech)
+base_basic_tech.order = "zzzzzzz-2"
+base_x_tech.icons = {
+  { icon = "__se-spm-technologies__/graphics/red-tint.png", icon_size = 128 },
+  { icon = "__se-spm-technologies__/graphics/speed-lines.png", icon_size = 128 },
+  { icon = "__space-exploration-graphics__/graphics/technology/energy-shield-magenta.png", icon_size = 128 },
+  { icon = "__se-spm-technologies__/graphics/eye-glare.png", shift = {-12, -35}, icon_size = 128 },
+  { icon = "__se-spm-technologies__/graphics/eye-glare.png", shift = {-19, -34}, icon_size = 128 },
+}
 base_x_tech.unit.ingredients = {
   { "automation-science-pack", 1 },
   { "logistic-science-pack", 1 },
