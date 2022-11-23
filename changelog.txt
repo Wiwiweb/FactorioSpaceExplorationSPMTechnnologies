@@ -5,6 +5,7 @@ Date: ????
   Changes:
     - If you don't have the equivalent level of Mining productivity, researching Bragging rights will now also research Mining productivity for free.
     - Bragging rights tech now starts at level 4 to match the costs of the Mining productivity tech (e.g. Bragging rights 9 and Mining productivity 9 both cost 15000 science packs).
+    - Support for SE+K2: When playing with Krastorio 2, the technologies will now also require K2 tech cards and the matter science pack.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1

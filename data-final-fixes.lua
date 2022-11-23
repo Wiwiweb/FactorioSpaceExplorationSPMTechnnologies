@@ -1,3 +1,10 @@
+local infinite_mining_productivity_tech_formula
+if mods["Krastorio2"] then
+  infinite_mining_productivity_tech_formula = "(L-3)^1.25*2000"
+else
+  infinite_mining_productivity_tech_formula = "2500*(L-3)"
+end
+
 local base_tech = {
   type = "technology",
   name = "se-spm-bragging-rights",
@@ -26,6 +33,12 @@ base_basic_tech.unit.ingredients = {
   { "se-biological-science-pack-4", 1 },
   { "se-deep-space-science-pack-4", 1 },
 }
+if mods["Krastorio2"] then
+  table.insert(base_basic_tech.unit.ingredients, { "kr-optimization-tech-card", 1 })
+  table.insert(base_basic_tech.unit.ingredients, { "advanced-tech-card", 1 })
+  table.insert(base_basic_tech.unit.ingredients, { "singularity-tech-card", 1 })
+  table.insert(base_basic_tech.unit.ingredients, { "se-kr-matter-science-pack-2", 1 })
+end
 
 -- local basic_tech_1 = table.deepcopy(base_basic_tech)
 -- basic_tech_1.name = base_tech.name .. "-1"
@@ -45,7 +58,7 @@ base_basic_tech.unit.ingredients = {
 local basic_tech_inf = table.deepcopy(base_basic_tech)
 basic_tech_inf.name = base_tech.name .. "-4"
 basic_tech_inf.max_level = "infinite"
-basic_tech_inf.unit.count_formula = "2500*(L-3)" -- Same as mining productivity
+basic_tech_inf.unit.count_formula = infinite_mining_productivity_tech_formula
 basic_tech_inf.prerequisites = {"se-spaceship-victory"}
 
 
@@ -88,6 +101,13 @@ base_x_tech.unit.ingredients = {
   { "se-deep-space-science-pack-3", 1 },
   { "se-deep-space-science-pack-4", 1 },
 }
+if mods["Krastorio2"] then
+  table.insert(base_x_tech.unit.ingredients, { "kr-optimization-tech-card", 1 })
+  table.insert(base_x_tech.unit.ingredients, { "advanced-tech-card", 1 })
+  table.insert(base_x_tech.unit.ingredients, { "singularity-tech-card", 1 })
+  table.insert(base_x_tech.unit.ingredients, { "matter-tech-card", 1 })
+  table.insert(base_x_tech.unit.ingredients, { "se-kr-matter-science-pack-2", 1 })
+end
 
 -- local x_tech_1 = table.deepcopy(base_x_tech)
 -- x_tech_1.name = base_tech.name .. "-x-1"
@@ -107,7 +127,7 @@ base_x_tech.unit.ingredients = {
 local x_tech_inf = table.deepcopy(base_x_tech)
 x_tech_inf.name = base_tech.name .. "-x-4"
 x_tech_inf.max_level = "infinite"
-x_tech_inf.unit.count_formula = "2500*(L-3)" -- Same as mining productivity
+x_tech_inf.unit.count_formula = infinite_mining_productivity_tech_formula
 x_tech_inf.prerequisites = {"se-spaceship-victory"}
 
 
