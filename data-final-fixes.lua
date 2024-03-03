@@ -35,7 +35,6 @@ base_basic_tech.unit.ingredients = {
 }
 if mods["Krastorio2"] then
   table.insert(base_basic_tech.unit.ingredients, { "kr-optimization-tech-card", 1 })
-  table.insert(base_basic_tech.unit.ingredients, { "advanced-tech-card", 1 })
   table.insert(base_basic_tech.unit.ingredients, { "singularity-tech-card", 1 })
   table.insert(base_basic_tech.unit.ingredients, { "se-kr-matter-science-pack-2", 1 })
 end

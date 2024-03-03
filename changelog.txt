@@ -2,10 +2,11 @@
 Version: 1.0.3
 Date: ????
   Changes:
+    - Updated SE+K2 compatibility to account for SE 0.6.121 changes. Removed the "Advanced Science Pack 1" (previously called Advanced Tech Card) from the base Bragging Rights tech.
+
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2022-11-23
-
   Changes:
     - If you don't have the equivalent level of Mining productivity, researching Bragging rights will now also research Mining productivity for free.
     - Bragging rights tech now starts at level 4 to match the costs of the Mining productivity tech (e.g. Bragging rights 9 and Mining productivity 9 both cost 15000 science packs).
@@ -14,13 +15,11 @@ Date: 2022-11-23
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2022-07-12
-
   Changes:
     - Updated for SE 0.6. Added space science pack.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2022-05-28
-
   Features:
     - Initial release.
