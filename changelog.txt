@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
-Date: ????
+Date: 2024-03-03
   Changes:
     - Updated SE+K2 compatibility to account for SE 0.6.121 changes. Removed the "Advanced Science Pack 1" (previously called Advanced Tech Card) from the base Bragging Rights tech.
 
