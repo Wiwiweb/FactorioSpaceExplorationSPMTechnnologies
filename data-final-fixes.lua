@@ -67,8 +67,8 @@ base_x_tech.icons = {
   { icon = "__se-spm-technologies__/graphics/red-tint.png", icon_size = 128 },
   { icon = "__se-spm-technologies__/graphics/speed-lines.png", icon_size = 128 },
   { icon = "__space-exploration-graphics__/graphics/technology/energy-shield-magenta.png", icon_size = 128 },
-  { icon = "__se-spm-technologies__/graphics/eye-glare.png", shift = {-12, -35}, icon_size = 128 },
-  { icon = "__se-spm-technologies__/graphics/eye-glare.png", shift = {-19, -34}, icon_size = 128 },
+  { icon = "__se-spm-technologies__/graphics/eye-glare.png", shift = {-12, -35}, icon_size = 128, floating = true },
+  { icon = "__se-spm-technologies__/graphics/eye-glare.png", shift = {-19, -34}, icon_size = 128, floating = true },
 }
 base_x_tech.unit.ingredients = {
   { "automation-science-pack", 1 },
